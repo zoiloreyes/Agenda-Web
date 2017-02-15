@@ -1,0 +1,30 @@
+body{
+	background-image: url("../img/background.jpg");
+	background-repeat: repeat;
+}
+
+.title{
+	text-align: center;
+}
+.user-foto{
+	margin-top: 3px;
+	border-radius: 9px 0px 0px 9px;
+	background-color: white;
+	padding: 20px;
+}
+.user-content{
+	margin-top: 3px;
+	border-radius: 0px 9px 9px 0px;
+	background-color: white;
+	padding: 20px;
+}
+.nombre{
+	padding-bottom: 6px;
+}
+.foto{
+	padding-left: 40px;
+	height: 75px;
+	width: 30px;
+	display: inline-block;
+	margin-right: 1px;
+}
