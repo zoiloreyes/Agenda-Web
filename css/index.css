@@ -1,30 +1,33 @@
+*{
+	font-family: sans-serif;
+}
 body{
 	background-image: url("../img/background.jpg");
 	background-repeat: repeat;
 }
-
 .title{
+	padding: 5px;
 	text-align: center;
+	border-radius: 10px;
+	background-color: #3277E5;
+	color: white;
 }
-.user-foto{
-	margin-top: 3px;
-	border-radius: 9px 0px 0px 9px;
+.white{
 	background-color: white;
-	padding: 20px;
+	border-radius: 10px;
+	padding: 10px;
 }
-.user-content{
-	margin-top: 3px;
-	border-radius: 0px 9px 9px 0px;
-	background-color: white;
-	padding: 20px;
+
+.camera{
+	margin: 10px;
+	padding: 3px;
+	border-radius: 10px;
+	transition: background-color 1s, color 1s;
+
 }
-.nombre{
-	padding-bottom: 6px;
-}
-.foto{
-	padding-left: 40px;
-	height: 75px;
-	width: 30px;
-	display: inline-block;
-	margin-right: 1px;
+
+.camera:hover{
+	color: white;
+	background-color: #3277E5;
+
 }
