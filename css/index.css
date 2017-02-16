@@ -18,7 +18,7 @@ body{
 	padding: 10px;
 }
 
-.camera{
+.camara{
 	margin: 10px;
 	padding: 3px;
 	border-radius: 10px;
@@ -26,7 +26,7 @@ body{
 
 }
 
-.camera:hover{
+.camara:hover{
 	color: white;
 	background-color: #3277E5;
 
